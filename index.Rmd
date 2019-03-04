@@ -29,11 +29,13 @@ mono_light(
 )
 ```
 
-class: inverse, right, bottom
+class: inverse, center, middle
 
-# Ernest Guevarra
-### ernest@guevarra.io
-### `r Sys.Date()`
+## Ernest Guevarra
+
+ernest@guevarra.io
+
+`r Sys.Date()`
 
 ---
 # Outline
@@ -198,7 +200,7 @@ background-size: contain
 ---
 class: inverse, center, middle
 
-# How to meausre coverage?
+# How to measure coverage?
 
 ---
 
@@ -389,4 +391,4 @@ background-color: #FFFFFF
 
     * Better to act on what the current coverage assessments are saying about coverage to try to improve things before more coverage assessments are done
 
-* Which barriers to focus on? Is there a **‘magic bullet’**?
+* Which barriers to focus on? Is there a **"magic bullet"**?
