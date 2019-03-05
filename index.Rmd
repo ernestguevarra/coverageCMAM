@@ -64,10 +64,18 @@ class: center, middle
 
 $$\text{coverage} ~ = ~ \frac{\text{No. in the programme}}{\text{No. who should be in programme}}$$
 
+???
+
+Here is a mathematical representation of the concept of coverage. The denominator implies that there is a criteria or a standard for eligibility to the programme.
+
 ---
 class: center, middle, inverse
 
 # Coverage and CMAM
+
+???
+
+Now we look at coverage specific to CMAM
 
 ---
 # Coverage estimators - old
