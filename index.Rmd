@@ -14,6 +14,9 @@ output:
 
 ```{r setup, include = FALSE}
 options(htmltools.dir.version = FALSE)
+
+if(!require(remotes)) install.packages("remotes")
+if(!require(fontawesome)) remotes::install_github("rstudio/fontawesome")
 ```
 
 ```{r xaringan-themer, include = FALSE}
@@ -33,9 +36,13 @@ class: inverse, center, middle
 
 ## Ernest Guevarra
 
-ernest@guevarra.io
+`r fontawesome::fa("envelope", fill = "white")` ernest@guevarra.io
 
-`r Sys.Date()`
+`r fontawesome::fa("globe", fill = "white")` ernest.guevarra.io
+
+`r fontawesome::fa("linkedin", fill = "white")` ernestguevarra
+
+11 March 2020
 
 ---
 # Outline
