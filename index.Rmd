@@ -23,7 +23,7 @@ if(!require(fontawesome)) remotes::install_github("rstudio/fontawesome")
 library(xaringanthemer)
 mono_light(
   base_color = "#002147",
-  title_slide_background_image = "https://www.validnutrition.org/wp-content/uploads/2017/07/Valid-Nutrition-CMAM.jpg",
+  title_slide_background_image = "figures/caseFindingCMAM.jpg",
   title_slide_background_size = "cover",
   header_font_google = google_font("Fira Sans"),
   text_font_google   = google_font("Fira Sans Condensed"),
@@ -42,7 +42,7 @@ class: inverse, center, middle
 
 `r fontawesome::fa("linkedin", fill = "white")` ernestguevarra
 
-11 March 2020
+3 March 2021
 
 ---
 # Outline
@@ -56,6 +56,7 @@ class: inverse, center, middle
 * Coverage challenges
 
 ---
+
 class: inverse, center, middle
 
 # What is coverage?
@@ -64,13 +65,7 @@ class: inverse, center, middle
 
 class: center, middle
 
-# Think of words or phrases that come to mind when you read or hear the term **coverage**
-
----
-class: center, middle
-
 $$\Large \text{coverage} ~ = ~ \frac{\text{No. in the programme}}{\text{No. who should be in programme}}$$
-
 ???
 
 Here is a mathematical representation of the concept of coverage. The denominator implies that there is a criteria or a standard for eligibility to the programme.
