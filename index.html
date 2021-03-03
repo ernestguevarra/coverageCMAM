@@ -27,6 +27,13 @@ class: inverse, center, middle
 
 #### &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="rfa" style="height:0.75em;fill:white;position:relative;"&gt;&lt;path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/&gt;&lt;/svg&gt; [ernest@guevarra.io](mailto:ernest@guevarra.io)  &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="rfa" style="height:0.75em;fill:white;position:relative;"&gt;&lt;path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/&gt;&lt;/svg&gt; [ernest.guevarra.io](https://ernest.guevarra.io)  &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="rfa" style="height:0.75em;fill:white;position:relative;"&gt;&lt;path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/&gt;&lt;/svg&gt; [ernestguevarra](https://www.linkedin/in/ernestguevarra)
 
+???
+
+I am Ernest Guevarra, a medical doctor and a public health specialist with twenty years of professional experience working in twenty countries across Africa,  South and South East Asia on community based  programming in maternal and child health and nutrition. I have expertise in designing and conducting national health and nutrition surveys,  spatial epidemiology, and programme evaluation.  
+
+I am currently a consulting research data scientist for modelling and analytics at EcoHealth Alliance producing analytics that inform policies related to the COVID-19 response in New York State.  
+
+I am founding member of Katilingban, a collective of public health and nutrition experts and practitioners leading its analytics and software development unit. I design, develop and maintain a set of open source software for implementation of health and nutrition spatial sampling surveys and nutrition analytics.
 
 ---
 
@@ -39,6 +46,10 @@ class: inverse, center, middle
 * Measuring coverage
 
 * Coverage challenges
+
+???
+
+In this lecture, I will first walk you through a conceptual framework of what coverage is and why it is important in relation to community-based management of acute malnutrition programmes. With this as foundation, I will then discuss how coverage of CMAM programmes has been measured in the early days, the limitations and weaknesses of these measures, and then detail the development and current use of more robust coverage assessment methods that addresses majority of the limitations and weaknesses of the previous methods. Finally, I will close by describing the set of challenges we face with regard to coverage of nutrition programmes in general and how the experience with development of concepts and methods for coverage assessment of CMAM programmes may offer solutions.
 
 ---
 
@@ -53,7 +64,15 @@ class: center, middle
 `$$\Large \text{coverage} ~ = ~ \frac{\text{No. in the programme}}{\text{No. who should be in programme}}$$`
 ???
 
-Here is a mathematical representation of the concept of coverage. The denominator implies that there is a criteria or a standard for eligibility to the programme.
+Mathematically, we can represent a generic and general concept of coverage as follows.
+
+Coverage is the proportion between those who are in a programme and those who should be in the programme.
+
+What this mathematical model definition of coverage implies are:
+
+* That there is a criteria or definition for those who should be in the programme; and,
+
+* That the values for those in the programme and those who should be in the programme should be measured in order to give an estimate of coverage.
 
 ---
 class: center, middle, inverse
@@ -62,7 +81,7 @@ class: center, middle, inverse
 
 ???
 
-Now we look at coverage specific to CMAM
+Now let us try to apply this mathematical concept of coverage to CMAM. /next slide
 
 ---
 # Coverage estimators - old
@@ -79,6 +98,14 @@ where:
 
 `\(R_{in} ~ = ~ \text{recovering cases in the programme}\)`
 
+???
+
+The following estimators represent the the concept of coverage as it relates to CMAM.
+
+Point coverage definition is a direct representation of the generic and general concept presented earlier in relation to CMAM. Here we now specifically call those who should be in the programme as cases and these cases have specific case definitions. For CMAM programmes, these will be case definitions of moderate acute malnutrition or MAM and severe acute malnutrition or SAM based on weight-for-height z-scores and/or MUAC.
+
+Period coverage on the other hand adds the concept of recovering cases that are still in the programme. These cases are those that at some point earlier fulfilled the case definitions of MAM or SAM, have been identified by the programme and enrolled in the programme and are now still in the programme but by case definition are no longer MAM or SAM. These are previous cases that are most likely recovering and awaiting programme discharge.
+
 ---
 
 # Characteristics of estimators
@@ -88,6 +115,16 @@ where:
 * **Period coverage** assesses the programme's case-finding capabilities and its ability to retain a case from admission to cure. Always equal to or higher than point coverage (never lower)
 
 * Period coverage more closely approximates treatment coverage or effective coverage
+
+???
+
+Point coverage assesses the programme's case finding capabilities whilst period coverage assesses the programme's ability to find cases and its ability to retain a case from admission to cure.
+
+Some important universal estimator characteristics to remember are:
+
+* period coverage is always equal to or higher than point coverage; it can never be lower than point coverage; and,
+
+* period coverage more closely approximates treatment coverage or effective coverage
 
 ---
 
@@ -99,6 +136,16 @@ where:
 
 * **Period coverage** can overestimate true coverage in settings where **length of stay** in programme is **prolonged**
 
+???
+
+It is important to understand also that these estimators have biases and limitations.
+
+* both estimators are unable to account for cases who have died and cases who are recovering but are not in the programme;
+
+* point coverage can underestimate true coverage in settings were case prevalence is low and majority of cases are in recovery; and,
+
+* period coverage can overestimate true coverage in settings where length of stay in programme is prolonged.
+
 ---
 
 # Which estimators to use?
@@ -106,6 +153,14 @@ where:
 * **Early days of CMAM:** reported both point and period coverage estimators
 
 * **Recent past:** recommendation has been made to report *only one* of the coverage estimators with the choice of estimator to report to be based on programme features such as length of stay and MUAC at admission among others
+
+???
+
+In the early days of CMAM, both point and period coverage were reported. However, this has been met with confusion particularly in settings where the different between point and period coverage is large and reports tended to not explain the differentiation between the two estimators in relation to the programme context.
+
+In the recent past, a general recommendation was made to report only one of the two estimators with the choice of which estimator to report based on programme features such as length of stay and MUAC at admission among others.
+
+However, it has been noted that during this period, most programmes tended to report the coverage estimator that provided the higher estimate.
 
 ---
 
@@ -125,6 +180,20 @@ where:
 
 `\(R_{out} ~ = ~ \text{recovering cases not in the programme}\)`
 
+???
+
+Current development work on the coverage assessment methods for CMAM have now led to an updating of these estimators as represented by these mathematical concepts.
+
+These updates were aimed at addressing the known biases and limitations of the previous estimators and to provide a more practical way to resolve the issue of cherry-picking of indicators.
+
+In the mathematical concepts shown in this slide, we note the following new elements:
+
+* Terminology has been adapted to be more descriptive of what they actually measure. What we have previously called point coverage is now called case-finding effectiveness to aptly describe what the estimator measures.
+
+* For period coverage, the concept of a recovering cases not in the programme has been introduced. This term addressed previous limitation that doesn't take into account this value.
+
+* Given the inclusion of the recovering cases in the programme in the period coverage definition, this estimator has now been called treatment coverage as it now more robustly approximates this indicator.
+
 ---
 
 # What estimators to use?
@@ -135,11 +204,23 @@ where:
 
 * **Treatment coverage** provides an approximation of true coverage or effective coverage
 
+???
+
+With these changes, it is now recommended that both estimators be reported as they describe different aspects of the programme relevant to coverage:
+
+* Case-finding effectiveness gives an idea of how good the programme is in case-finding which is a key factor in coverage; and,
+
+* Treatment coverage provides an approximation of true coverage or effective coverage.
+
 ---
 
 class: inverse, center, middle
 
 # Why coverage?
+
+???
+
+Now that we have grounded ourselves on the definition of coverage in relation to CMAM, let us now discuss why coverage is important.
 
 ---
 
@@ -157,6 +238,20 @@ class: inverse, center, middle
     
     3. Good retention from admission to cure.
 
+???
+
+The ultimate aim of CMAM is to meet the needs of wasted children who are at most risk of death. From the development of CMAM, we already know that the CMAM model of therapeutic care for wasted children is highly efficacious - close to 100% in ideal and controlled settings.
+
+However, in actual programme conditions, CMAM effectiveness still leaves room for development.
+
+Effectiveness depends on:
+
+* thorough case-finding and early treatment seeking;
+
+* high-level of compliance; and,
+
+* good retention from admission to cure.
+
 ---
 
 # High coverage CMAM meets needs
@@ -170,6 +265,16 @@ class: inverse, center, middle
     
 * It also indirectly depends on **compliance**.
 
+???
+
+The coverage of a CMAM programme contributes to effectiveness as well. To be able to reach high CMAM coverage, a programme requires:
+
+* thorough case-finding and early treatment-seeking;
+
+* good retention from admission to cure; and,
+
+* indirectly, compliance.
+
 ---
 background-color: #FFFFFF
 
@@ -181,21 +286,51 @@ background-color: #FFFFFF
   * Good effectiveness supports good coverage
   * Maximising coverage maximises effectiveness and met need
   
+???
+
+From this what we notice is that CMAM effectiveness depends on the very same things as CMAM coverage:
+
+* Good coverage supports good effectiveness;
+
+* Good effectiveness supports good coverage;
+
+* Maximising coverage maximises effectiveness and met need
+  
 ---
 
 class: inverse, center, middle
 
 `$$\LARGE \text{Met need} ~ = ~ \text{effectiveness} ~ \times ~ \text{coverage}$$`
+???
+
+This can be conceptualised mathematically as follows:
+
+Met need = effectiveness X coverage
 
 ---
 
 background-image: url(figures/coverage2.png)
 background-size: contain
 
+
+???
+
+To illustrate this mathematical concept, here is a theoretical example.
+
+The programme on the left-hand side is a high coverage programme with 80% of those in need having been recruited into the programme. It is also a highly effective programme with a cure rate of 90%. This programme meets the needs of 72% of those who have the needs.
+
+On the other hand, the programme on the right-hand side has low coverage of 30% and a moderate level of effectiveness at 75%. This programme is assessed to be addressing only 23% of those with needs.
+
 ---
 
 background-image: url(figures/coverage3.png)
 background-size: contain
+
+???
+
+Another framework by which to conceptualise the importance of coverage is through Tanahashi's model of health service delivery coverage. Our various conceptions of coverage are hierarchical in nature with the more basic concept of availability being the most common and easily reported metric. This is usually proxied by geographic coverage indicators that indicate how many health care centres or facilities provide the specific service. This is considered a lower order coverage indicator or metric because it measures more of the coverage potential of a programme rather than its true or effective coverage. As one goes up Tanahashi's coverage ladder, various barriers and bottlenecks impact on this coverage potential whilst the metrics more and more approximate true or effective coverage.
+
+The estimators we discussed a while ago would be considered contact coverage indicators, which are one rung below true or effective coverage indicators. But as we have noted above, combining the programmes effectiveness metric allows us to approximate true coverage.
 
 ---
 
@@ -209,6 +344,10 @@ class: inverse, center, middle
 
 # How to measure coverage?
 
+???
+
+I will now walk you through how CMAM coverage, as we have defined it, is measured.
+
 ---
 
 # Indirect estimation of coverage
@@ -219,6 +358,14 @@ class: inverse, center, middle
 * **Denominator** is a caseload estimation based on total population in programme area and known prevalence estimate and known incidence
 
 * Issues mainly stem from estimation of denominator
+
+???
+
+In the early days of therapeutic care for wasted children, coverage was usually estimated indirectly using the following formula shown in the slide.
+
+The numerator value is taken from total admissions as per programme data while the denominator is based on a caseload estimation based on total population in the programme area and known prevalence and incidence of wasting
+
+The main issue with indirect estimation stems from estimation of the denominator. It is not uncommon to find official reports that indicate coverage as being more than a 100% which illustrates the problem with the robustness of caseload estimation.
 
 ---
 
@@ -232,6 +379,10 @@ class: inverse, center, middle
 
 * Current approaches: surveys specifically assessing coverage
 
+???
+
+With this limitation in mind, others have tried to assess coverage through a survey and specifically, the approach was to piggyback coverage surveys onto nutrition surveys that assess prevalence of wasting (SMART surveys). The issue with this approach is sample size of children who quality for the case definition of MAM or SAM. Since the SMART surveys select samples of children under 5 regardless of their wasting status, it is not uncommon that only very few wasted children are identified and can be included in the sample for coverage estimation. Estimates were therefore lacking precision.
+
 ---
 
 # History of methods development
@@ -241,6 +392,14 @@ class: inverse, center, middle
 * **Centric Systematic Area Sampling (CSAS)** was the first coverage assessment method developed
 
 * However, **CSAS** was not as commonly used as it was deemed too costly and hard to implement
+
+???
+
+These issues were tackled alongside the development of the CMAM approach such that work was done to develop a specific survey method that would specific to therapeutic care of wasted children.
+
+The first method developed as part of the development of the therapeutic care of wasted children is the Centric Systematic Area Sampling (CSAS) method. Majority of early and pre-cursor CMAM programmes were evaluated using CSAS.
+
+However, CSAS was deemed too costly and hard to implement.
 
 ---
 
@@ -252,6 +411,14 @@ class: inverse, center, middle
 
 * With CMAM programmes getting scaled up to national scope, a wide area/large scale method such as **S3M** has been recently developed 
 
+???
+
+The development then shifted to finding alternatives to CSAS that were rough and ready and cheap and easy to implement.
+
+SQUEAC and SLEAC were then developed as quick and easy methods to assess coverage. SQUEAC and SLEAC are now widely used and considered the standard methods for assessing CMAM coverage.
+
+Then recently, with CMAM programmes getting scaled up at national level, wide area methods such as the Simple Spatial Survey Method (S3M) has been developed to allow for large scale programme coverage assessment.
+
 ---
 
 # CSAS: Design
@@ -262,6 +429,12 @@ class: inverse, center, middle
 
 * The second stage is an **active and adaptive case-finding method** that finds all or nearly all cases in the communities being surveyed.
 
+???
+
+CSAS uses a two-stage sampling design with the first stage being a systematic spatial sample of the entire service area to select the first stage samples. The second stage is an active and adaptive case-finding method that finds all or nearly all cases in the community being surveyed.
+
+The active and adaptive case finding method is a method specifically designed for CMAM coverage. It is a snowball sampling approach. Key terms and descriptions used by the community to describe wasting is used as case-finding terms to find cases of wasted children. Once a case is found, they then become new informants to lead enumerators to find a case similar to the current case. This approach as used with SAM specifically has been found to have high specificity and sensitivity to detecting SAM cases. This case-finding method is used in all the coverage methods.
+
 ---
 
 # CSAS: Results
@@ -271,6 +444,10 @@ class: inverse, center, middle
 * Local coverage estimates which can be represented as a coverage map
 
 * Ranked list of barriers
+
+???
+
+CSAS provides an overall coverage estimate, local coverage estimates which is reported as a coverage map, and a ranked list of coverage barriers
 
 ---
 
@@ -286,6 +463,10 @@ background-color: #FFFFFF
   Ranked list of barriers from a CSAS survey
   ![](figures/coverage5.png)]
 
+???
+
+Here we see the various outputs that CSAS provides. On the left-hand side, we see a coverage map produced by CSAS surveys. On the right-hand side, we see a Pareto chart of ranked list of barriers collected through a CSAS survey
+
 ---
 
 # SQUEAC: Design
@@ -299,6 +480,16 @@ background-color: #FFFFFF
 * **Stage 3:** Estimate overall coverage using Bayesian techniques. A likelihood survey is conducted as part of this stage. This two-stage sampling design is the same as with all other coverage survey methods. 
 
     * This stage is optional. Should be done if the reporting of an overall coverage estimate is a key information requirement in addition to the rich information on barriers and boosters to coverage already gained from stages 1 and 2.
+
+???
+
+Semi-quantitative evaluation of access and coverage or SQUEAC is a more local-focused method that is more an investigation than a survey.
+
+Stage 1 involves a thorough quantitative and qualitative investigation of factors that impact on programme coverage. Stage 2 is usually a set of tests or small studies that aim to confirm or deny hypothesis of coverage developed from Stage 1. Stage 1 and stage 2 produce vast amounts of knowledge and understanding of the programme's coverage factors and informs programme managers of the what elements in the programme are supporting or blocking coverage.
+
+Stage 3, an optional stage, is the step in which a prior belief of programme coverage generated from Stage 1 and Stage 2 is combined with the data from a likelihood survey using Bayesian calculations to come up with an overall estimate of programme coverage with useful precision.
+
+This stage is recommended to be done only when an overall coverage estimate is required in addition to the already rich set of information provided by stage 1 and stage 2.
 
 ---
 background-color: #FFFFFF
@@ -315,6 +506,11 @@ background-color: #FFFFFF
 
 .pull-right[![](figures/coverage6.png)]
 
+
+???
+
+SQUEAC provides a concept map of barriers and boosters to programme coverage, a coverage map using small area surveys through a risk mapping approach, and an estimation of coverage proportion (if stage 3 is performed).
+
 ---
 
 # SLEAC
@@ -329,6 +525,12 @@ background-color: #FFFFFF
 
 * Coverage is still classified for the individual service delivery units, then, data from individual service delivery units are combined and overall coverage for the wide area is estimated.
 
+???
+
+Simplified Lot Quality Assurance Sampling Evaluation of Access and Coverage or SLEAC classifies coverage achieved by the service in the service area as either a PASS or FAIL or as low, moderate or high. Relatively low sample sizes are required (n ≥ 40) are required in order to make a reliable classification.
+
+If applied onto a wider area, coverage can be estimated by aggregating the SLEAC results in each service area surveyed to come up with an overall estimate for the combined area of smaller service areas.
+
 ---
 
 # SLEAC: Design
@@ -336,6 +538,10 @@ background-color: #FFFFFF
 * First stage systematic spatial sample similar to that used in CSAS. Only small sample sizes ( `\(n ~ \geq ~ 40\)` ) are required for each service delivery unit in which coverage is being classified. 
 
 * Second stage sample is an active and adaptive case-finding method as with the other coverage survey methods.
+
+???
+
+SLEAC uses a similar design as CSAS but with require fewer clusters as sample size requirement is much lower.
 
 ---
 
@@ -346,6 +552,10 @@ background-color: #FFFFFF
 * Can be used over wide areas to provide local indicators classifications with a map and a wide area estimate
 
 * Ranked list of barriers
+
+???
+
+SLEAC provides coverage classification, a coverage map if applied over a wide area over multiple service areas and a ranked list of barriers /next slide
 
 ---
 
@@ -361,6 +571,10 @@ background-color: #FFFFFF
   ![](figures/periodCoverageNigeria.png)
 ]
 
+???
+
+Here are examples outputs of coverage maps produced as an output of SLEAC surveys
+
 ---
 
 # S3M
@@ -370,6 +584,10 @@ background-color: #FFFFFF
 * The main difference is **S3M** uses a hexagonal grid (as compared to a square grid for **CSAS**).
 
 * Hexagonal grids address the issue of unevenness of spatial sampling created by square grids particularly at scale
+
+???
+
+Simple spatial survey method or S3M is a development of CSAS and uses a similar sampling design. The main difference is that S3M uses a hexagonal grid (as compared to a square grid for CSAS). The hexagonal grid address the issue of spatial unevenness created by square grids particularly at scale.
 
 ---
 
@@ -384,6 +602,10 @@ background-color: #FFFFFF
   Coverage map of Wollo Zone, Ethiopia produced by S3M
   ![](figures/periodCoverageScaleWollo.png)
 ]
+
+???
+
+S3M provides the same set of results as CSAS but with coverage maps with much finer spatial resolution as shown in these examples.
 
 ---
 
@@ -401,11 +623,33 @@ background-color: #FFFFFF
 
 * Which barriers to focus on? Is there a **"magic bullet"**?
 
+???
+
+What now with coverage?
+
+As of 4-5 years ago, global CMAM coverage is estimated to be around 30% based on results for programmes with which coverage assessments have been performed. It is likely that if all existing programmes are accounted for and assessed, this figure will even go lower.
+
+Since then, the push for more coverage with CMAM has declined with lesser coverage surveys being performed compared to earlier and coverage was mainly being assessed within small programme areas despite continuous scaling up of CMAM in many countries.
+
+There has been a general wait and see attitude from the key players and stakeholders of CMAM with a general sentiment being that there is an acceptance that current programming has poor coverage so better wait until the programmes get more mature and progress so that achievement in coverage can be shown. However, this thinking is inconsistent with what coverage assessment is mean to provide. The assessments should be seen as guide posts to facilitate the growing of the programme from early stage scale up with all its challenges and limitations and provide data and information on how to bring the programming to the next stage of improvement specifically on coverage. Without this, then programmes will be stabbing at the dark unaware of what their current coverage status is and how they can improve.
+
 ---
 
 class: inverse, center, middle
 
 # Questions?
+
+---
+
+class: inverse, center, middle
+
+# Thank you!
+
+This slide deck is available online at https://ernest.guevarra.io/coverageCMAM
+
+A PDF copy of this slide deck is available to download from  [here](https://github.com/ernestguevarra/coverageCMAM/raw/master/coverageCMAM_03Mar2021.pdf)
+
+This slide deck is also available as an **R Markdown** document from [here](https://github.com/ernestguevarra/coverageCMAM) which you can reproduce using R
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
