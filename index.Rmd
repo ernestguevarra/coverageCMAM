@@ -25,6 +25,7 @@ mono_light(
   base_color = "#002147",
   title_slide_background_image = "figures/caseFindingCMAM.jpg",
   title_slide_background_size = "cover",
+  link_color = "#214700",
   header_font_google = google_font("Fira Sans"),
   text_font_google   = google_font("Fira Sans Condensed"),
   code_font_google   = google_font("Fira Mono"),
@@ -36,15 +37,13 @@ class: inverse, center, middle
 
 ## Ernest Guevarra
 
-`r fontawesome::fa("envelope", fill = "white")` ernest@guevarra.io
+### 3 March 2021
 
-`r fontawesome::fa("globe", fill = "white")` ernest.guevarra.io
+#### `r fontawesome::fa("envelope", fill = "white")` [ernest@guevarra.io](mailto:ernest@guevarra.io)  `r fontawesome::fa("globe", fill = "white")` [ernest.guevarra.io](https://ernest.guevarra.io)  `r fontawesome::fa("linkedin", fill = "white")` [ernestguevarra](https://www.linkedin/in/ernestguevarra)
 
-`r fontawesome::fa("linkedin", fill = "white")` ernestguevarra
-
-3 March 2021
 
 ---
+
 # Outline
 
 * What is coverage?
@@ -105,6 +104,7 @@ $R_{in} ~ = ~ \text{recovering cases in the programme}$
 * Period coverage more closely approximates treatment coverage or effective coverage
 
 ---
+
 # Bias and limitations of estimators
 
 * Both estimators are unable to detect **cases who have died** and **recovering cases not in the programme**
@@ -150,6 +150,7 @@ $R_{out} ~ = ~ \text{recovering cases not in the programme}$
 * **Treatment coverage** provides an approximation of true coverage or effective coverage
 
 ---
+
 class: inverse, center, middle
 
 # Why coverage?
@@ -195,19 +196,23 @@ background-color: #FFFFFF
   * Maximising coverage maximises effectiveness and met need
   
 ---
+
 class: inverse, center, middle
 
 $$\LARGE \text{Met need} ~ = ~ \text{effectiveness} ~ \times ~ \text{coverage}$$
 
 ---
+
 background-image: url(figures/coverage2.png)
 background-size: contain
 
 ---
+
 background-image: url(figures/coverage3.png)
 background-size: contain
 
 ---
+
 class: inverse, center, middle
 
 # How to measure coverage?
@@ -276,6 +281,7 @@ $$\text{coverage} ~ = ~ \frac{\text{Total cases admitted in programme}}{\text{Es
 * Ranked list of barriers
 
 ---
+
 background-color: #FFFFFF
 
 # CSAS: Results
