@@ -50,5 +50,5 @@ rmarkdown::render(input = "index.Rmd", output_file = "index.html")
 
 ## License
 
-This work is licensed under a [GNU General Public License 3 (GPL-3)](https://github.com/ernestguevarra/coverageCMAM/blob/master/LICENSE.md.
+This work is licensed under a [GNU General Public License 3 (GPL-3)](https://github.com/ernestguevarra/coverageCMAM/blob/master/LICENSE.md).
 
