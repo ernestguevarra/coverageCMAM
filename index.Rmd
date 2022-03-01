@@ -37,7 +37,7 @@ class: inverse, center, middle
 
 ## Ernest Guevarra
 
-### 3 March 2021
+### 1 March 2022
 
 #### `r fontawesome::fa("envelope", fill = "white")` [ernest@guevarra.io](mailto:ernest@guevarra.io)  `r fontawesome::fa("globe", fill = "white")` [ernest.guevarra.io](https://ernest.guevarra.io)  `r fontawesome::fa("linkedin", fill = "white")` [ernestguevarra](https://www.linkedin/in/ernestguevarra)
 
