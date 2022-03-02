@@ -4,6 +4,10 @@
 # Assessing Coverage of Community-based Management of Acute Malnutrition
 
 <!-- badges: start -->
+
+![GitHub release (latest by
+date)](https://img.shields.io/github/v/release/ernestguevarra/coverageCMAM)
+[![DOI](https://zenodo.org/badge/173656565.svg)](https://zenodo.org/badge/latestdoi/173656565)
 <!-- badges: end -->
 
 One of the most important elements behind the success of the
@@ -47,9 +51,11 @@ ability to meet need.
 
 This repository contains the `Rmarkdown` script and related materials
 used to produce the slide deck for the Assessing Coverage of
-Community-based Management of Acute Malnutrition presentation for he
-Nutrition in Emergencies (NiE) Module, MSc Nutrition for Global Health,
-London School of Hygiene and Tropical Medicine on the 1st of March 2022.
+Community-based Management of Acute Malnutrition presentation for the
+Nutrition in Emergencies (NiE) Module, [MSc Nutrition for Global
+Health](https://www.lshtm.ac.uk/study/courses/masters-degrees/nutrition-global-health),
+[London School of Hygiene and Tropical
+Medicine](https://www.lshtm.ac.uk/) on the 1st of March 2022.
 
 ## The slide deck
 
@@ -89,5 +95,5 @@ rmarkdown::render(input = "index.Rmd", output_file = "index.html")
 
 ## License
 
-This work is licensed under a \[GNU General Public License 3
-(GPL-3)\](<https://github.com/ernestguevarra/coverageCMAM/blob/master/LICENSE.md>.
+This work is licensed under a [GNU General Public License 3
+(GPL-3)](https://github.com/ernestguevarra/coverageCMAM/blob/master/LICENSE.md).
