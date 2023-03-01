@@ -26,7 +26,7 @@ The CMAM model of service delivery is now being adopted in developmental and pos
 
 ## About this repository
 
-This repository contains the `Rmarkdown` script and related materials used to produce the slide deck for the Assessing Coverage of Community-based Management of Acute Malnutrition presentation for the Nutrition in Emergencies (NiE) Module, [MSc Nutrition for Global Health](https://www.lshtm.ac.uk/study/courses/masters-degrees/nutrition-global-health), [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/) on the 1st of March 2022.
+This repository contains the `Rmarkdown` script and related materials used to produce the slide deck for the Assessing Coverage of Community-based Management of Acute Malnutrition presentation for the Nutrition in Emergencies (NiE) Module, [MSc Nutrition for Global Health](https://www.lshtm.ac.uk/study/courses/masters-degrees/nutrition-global-health), [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/) on the 1st of March 2023.
 
 ## The slide deck
 

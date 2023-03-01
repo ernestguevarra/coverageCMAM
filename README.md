@@ -55,7 +55,7 @@ Community-based Management of Acute Malnutrition presentation for the
 Nutrition in Emergencies (NiE) Module, [MSc Nutrition for Global
 Health](https://www.lshtm.ac.uk/study/courses/masters-degrees/nutrition-global-health),
 [London School of Hygiene and Tropical
-Medicine](https://www.lshtm.ac.uk/) on the 1st of March 2022.
+Medicine](https://www.lshtm.ac.uk/) on the 1st of March 2023.
 
 ## The slide deck
 
@@ -69,18 +69,18 @@ The **Rmarkdown** document is named `index.Rmd`. The **Rmarkdown**
 document relies on additional resources to produce the slide deck. These
 are:
 
--   `xaringan-themer.css` - this is the CSS that comes included when
-    using the [`{xaringanthemer}`
-    package](https://github.com/gadenbuie/xaringanthemer)’s ninja-themed
-    presentation template. This CSS file is dynamically re-generated
-    using new style specifications used in the **Rmarkdown** document
+- `xaringan-themer.css` - this is the CSS that comes included when using
+  the [`{xaringanthemer}`
+  package](https://github.com/gadenbuie/xaringanthemer)’s ninja-themed
+  presentation template. This CSS file is dynamically re-generated using
+  new style specifications used in the **Rmarkdown** document
 
--   `libs` folder - this directory contains javascript libraries used by
-    [`{xaringanthemer}`
-    package](https://github.com/gadenbuie/xaringanthemer) to generate
-    the HTML slides
+- `libs` folder - this directory contains javascript libraries used by
+  [`{xaringanthemer}`
+  package](https://github.com/gadenbuie/xaringanthemer) to generate the
+  HTML slides
 
--   `figures` folder - contains graphics used in the slides
+- `figures` folder - contains graphics used in the slides
 
 These abovementioned four files are what is needed to reproduce the
 slide deck using the following command in R:
